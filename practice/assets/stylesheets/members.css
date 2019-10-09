@@ -1,0 +1,38 @@
+.members .header{
+    height: 250px;
+    padding-top: 100px
+}
+
+.members .header h1{
+    font-size : 3em;
+    font-weight : 100;
+    margin:auto;
+    border-bottom : 5px solid #ff9e1b;
+    width : fit-content;
+}
+
+.list-container{ width : 600px; margin : auto; }
+
+.list-container .list-table{
+    width : 100%;
+    border-collapse: collapse;
+}
+
+.list-container .list-table th{
+    background-color: #ff9e1b;
+    height: 40px;
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.list-container .list-table tbody tr{
+    border-top : 1px solid #3e4449;
+}
+
+.list-container .list-table tr td{
+    height: 40px;
+    color: #fff;
+    text-align : center;
+}
+.list-container .list-table tr:nth-child(odd) td{background-color:#212529;}
+.list-container .list-table tr:nth-child(even) td{background-color:#3e4449;}
